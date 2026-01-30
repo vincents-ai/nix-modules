@@ -1,0 +1,19 @@
+# Nix build artifacts
+result
+result-*
+.direnv/
+.DS_Store
+/secrets/
+.envrc.local
+
+# Rust build artifacts
+target/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/

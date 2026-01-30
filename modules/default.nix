@@ -1,0 +1,19 @@
+{
+  imports = [
+    ./common-dev-shell.nix
+    ./rust-platform.nix
+    ./common-rust-package.nix
+    ./common-rust-service.nix
+    ./common-monitoring.nix
+    ./common-dns.nix
+    ./common-dhcp.nix
+    ./common-bgp.nix
+    ./common-policy-routing.nix
+    ./common-secrets.nix
+    ./common-certificates.nix
+    ./common-log-aggregation.nix
+    ./common-oci-builder.nix
+    ./health-monitoring
+    ./common-troubleshooting.nix
+  ];
+}
