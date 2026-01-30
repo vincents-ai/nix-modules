@@ -1,0 +1,45 @@
+name: Feature Request
+description: Suggest a new feature or improvement for nix-modules
+labels: enhancement
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the feature or improvement you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: What problem would this feature solve? What use cases do you have?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: How do you think this could be implemented?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What other approaches have you considered?
+    validations:
+      required: false
+
+  - type: checklist
+    id: requirements
+    attributes:
+      label: Requirements
+      options:
+        - label: This feature should be usable with current NixOS/nixpkgs versions
+        - label: The feature should follow existing module patterns
+        - label: Documentation should be included
+        - label: Tests should be included where applicable
